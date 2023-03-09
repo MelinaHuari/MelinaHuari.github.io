@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="stylesheet" type="text/css" href="Estilo.css">
+</head>
+<body>
+	<div id="navegador">
+  <ul id="listaNav">
+    <li><a href="#Presentación">Presentación</a></li>
+    <li><a href="#Experiencia">Experiencia</a></li>
+    <li><a href="#Contacto">Contacto</a></li>
+  </ul>
+	</div>
+	 <h1 id="Presentación">CURRICULUM VITAE</h1>
+	 <img src="fotocv.jpg" alt="Foto de presentación"/>
+	 <p id="Nombre">Romina Ramirez</p>
+	 <p id="Profesión">Lic. en Comunicación Social</p>
+	 <section class="Apartado">
+		<p id="Trabajo_Apartado">Periodista y comunicadora social orientada a la redacción de noticias para medios digitales.</p>
+	 </section>
+	 <p id="Experiencia">Formación académica</p>
+	 <div>
+	 <p class="Formación">Licenciatura en Comunicación Social (Universidad Nacional de La Matanza)</p>
+	 <p class="Formación">Tecnicatura en Periodismo (Universidad Nacional de La Matanza)</p>
+	 </div>
+	 <p id="TituloTrabajos">Experiencia laboral</p>
+	 <div>
+	 <p class="Trabajos">Escritora de noticias en Agencia EFE (Junio 2021 - Actualidad)</p>
+	 <p class="Trabajos">Periodista y reportera en Tele Elx (Mayo 2019 - Mayo 2021)</p>
+	 <p class="Trabajos">Periodista Freelance (Abril 2017 - Abril 2019)</p>
+	 </div>
+	 <p id="Contacto">Contacto</>
+	 <p id="DatosContacto">Ingrese sus datos de contacto</p>
+ <form action="" name="formulario" method="post">
+  <ul>
+    <li>
+      <label for="nombre">Nombre:</label>
+      <input class="datos_formulario" type="text" id="nombre" name="contacto_nombre">
+    </li>
+    <li>
+      <label for="email">Correo electrónico:</label>
+      <input class="datos_formulario" type="email" id="email" name="contacto_email">
+    </li>
+    <li>
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="contacto_mensaje"></textarea>
+   </li>
+   <li class="boton">
+      <input type="submit" id= "boton" value="Envíar contacto">
+  </li>
+  </ul>
+ </form>  
+ <script src="cv.js"></script>
+</body>
+</html>

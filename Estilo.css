@@ -1,0 +1,168 @@
+body {
+	font-family: arial, helvetica;
+	background-color: #C7955C;
+}
+#navegador{
+	list-style: none;
+	padding: 0;
+	background: black;
+	width: 200%;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}	
+#navegador li a{
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	padding: 15px;
+	display: block;
+	border: 3px solid white;
+	margin: 15px;
+}
+#navegador li{
+	display: inline-table;
+	text-align: center;	
+}
+#listaNav{
+	padding:0;
+}
+h1 {
+	padding: 10px;
+	margin: 20px;
+	font-weight: 900;
+	color: black;
+	text-align: center;
+}
+img {
+	height: 200px;
+	width: 230px;
+	margin: auto;
+	display: block;
+	border: 3px solid white;
+}
+#Nombre{
+	color: black;
+	font-size: 25px;
+	weight: 300px;
+	text-align: center;
+	font-weight: bold;
+	margin-top:40px;
+	margin-bottom: 10px;
+}
+#Profesión{
+	color: black;
+	font-size: 20px;
+	weight: 300px;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+.Apartado{
+	border: 3px dashed white;
+	padding: 10px;
+	margin:auto;
+	width: 400px;
+	text-align: center;
+	color:black;
+	max-width: 1000px;
+	font-size: 18px;
+}
+#Experiencia{
+	color: #8b008b;
+	border: 3px double black;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	margin-top:130px;
+	margin-bottom: 40px;
+	padding:3px;
+}
+.Formación {
+	color: #800000;
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+#TituloTrabajos{
+	color: #c70039;
+	border: 3px double black;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	margin-top:100px;
+	margin-bottom: 40px;
+	padding:3px;
+}
+.Trabajos{
+	color: #800000;
+	font-size: 18px;
+	weight: 300px;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+#Contacto{
+	color: blue;
+	border: 5px solid white;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	margin-top:150px;
+	margin-bottom: 80px;
+	padding:10px;
+}
+#DatosContacto{
+	color: black;
+	font-size: 22px;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 20px;
+  border: 8px dotted pink;
+  margin-bottom: 100px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px;
+}
+form li + li {
+  margin-top: 20px;
+}
+label {
+  display: inline-block;
+  width: 100px;
+  text-align: left;
+  font-family:noto sans;
+  font-size:18px
+}
+.datos_formulario,textarea {
+  width: 260px;
+  border: 1px solid black;
+}
+input{
+  height: 25px;
+}
+textarea {
+  height: 70px;
+  vertical-align: top;
+}
+.boton {
+  padding-left: 135px;
+}
